@@ -10,7 +10,7 @@ customtkinter.set_default_color_theme("dark-blue")
 app =  customtkinter.CTk()
 app.geometry("450x220")
 app.title("YouDownloader")
-#app.wm_iconbitmap("your_own_icon.ico")
+app.wm_iconbitmap("icon.ico")
 
 # Download command
 def download():
