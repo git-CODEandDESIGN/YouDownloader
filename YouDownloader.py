@@ -11,7 +11,7 @@ app =  customtkinter.CTk()
 app.geometry("460x250")
 app.resizable(False, False)
 app.title("YouDownloader")
-app.wm_iconbitmap("icon.ico")
+app.iconbitmap("icon.ico")
 
 # Download command
 def download():
