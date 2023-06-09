@@ -11,7 +11,7 @@ app =  customtkinter.CTk()
 app.geometry("460x250")
 app.resizable(False, False)
 app.title("YouDownloader")
-app.wm_iconbitmap("icon.ico")
+app.iconbitmap("icon.ico")
 
 # Download command
 def download():
@@ -28,7 +28,7 @@ def download():
 title = customtkinter.CTkLabel(app, text="YouDownloader", pady=20,font=("sans-serif", 40))
 url_var = customtkinter.StringVar()
 URL_entry = customtkinter.CTkEntry(app, width=400, height=30, corner_radius=10, textvariable=url_var, font=('sans-serif', 20))
-text = customtkinter.CTkLabel(app, text="Ctrl+V or ⌘+V to paste your youtube link", pady=20,font=("sans-serif", 19))
+text = customtkinter.CTkLabel(app, text="Ctrl+V to paste your youtube link", pady=20,font=("sans-serif", 19))
 submit_button = customtkinter.CTkButton(app, text="Download", fg_color="#F44336", hover_color="#E53935", command=download)
 
 # Applying the UI to the app
