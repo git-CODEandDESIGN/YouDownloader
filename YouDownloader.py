@@ -9,6 +9,7 @@ customtkinter.set_default_color_theme("blue")
 # App settings
 app =  customtkinter.CTk()
 app.geometry("460x250")
+app.resizable(False, False)
 app.title("YouDownloader")
 app.wm_iconbitmap("icon.ico")
 
