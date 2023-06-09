@@ -1,6 +1,8 @@
-# Importing necessary modules
+# Importing modules
 from pytube import YouTube
 import customtkinter
+from distutils.core import setup
+import py2exe
 
 # GUI settings
 mode = customtkinter.set_appearance_mode("System")
